@@ -21,6 +21,7 @@
 		57D0C9DC193CCD740056CDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9BE193CCD740056CDA9 /* UIKit.framework */; };
 		57D0C9E4193CCD740056CDA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D0C9E2193CCD740056CDA9 /* InfoPlist.strings */; };
 		57D0C9E6193CCD740056CDA9 /* SmartCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D0C9E5193CCD740056CDA9 /* SmartCalcTests.m */; };
+		57D0C9F0193CCD9C0056CDA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9EF193CCD9C0056CDA9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		57D0C9E1193CCD740056CDA9 /* SmartCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartCalcTests-Info.plist"; sourceTree = "<group>"; };
 		57D0C9E3193CCD740056CDA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57D0C9E5193CCD740056CDA9 /* SmartCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCalcTests.m; sourceTree = "<group>"; };
+		57D0C9EF193CCD9C0056CDA9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D0C9F0193CCD9C0056CDA9 /* QuartzCore.framework in Frameworks */,
 				57D0C9BD193CCD740056CDA9 /* CoreGraphics.framework in Frameworks */,
 				57D0C9BF193CCD740056CDA9 /* UIKit.framework in Frameworks */,
 				57D0C9BB193CCD740056CDA9 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		57D0C9B9193CCD740056CDA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57D0C9EF193CCD9C0056CDA9 /* QuartzCore.framework */,
 				57D0C9BA193CCD740056CDA9 /* Foundation.framework */,
 				57D0C9BC193CCD740056CDA9 /* CoreGraphics.framework */,
 				57D0C9BE193CCD740056CDA9 /* UIKit.framework */,
