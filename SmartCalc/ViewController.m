@@ -28,7 +28,6 @@
     keypadMR.layer.cornerRadius = 5;
     keypadC.layer.cornerRadius = 5;
     keypadPM.layer.cornerRadius = 5;
-    keypadPercent.layer.cornerRadius = 5;
     keypadDivide.layer.cornerRadius = 5;
     keypadMultiple.layer.cornerRadius = 5;
     keypadMinus.layer.cornerRadius = 5;
@@ -47,6 +46,7 @@
     keypadPoint.layer.cornerRadius = 5;
     
     [self ClearCalulation];
+    [displayLabel setText:@"0"];
 }
 
 - (BOOL)shouldAutorotate
@@ -63,9 +63,17 @@
 // 숫자버튼 처리
 -(IBAction) digitPressed:(UIButton *)sender
 {
-    NSString *numPoint = [[sender titleLabel]text];
-    
+    NSString *numPoint;
+    if ([@"∙" isEqualToString:sender.titleLabel.text])
+    {
+        [self Calculation:curStatusCode CurStatusCode:STATUS_PLUS];
+        numPoint = @".";
+    }
+    else {
+        numPoint = [[sender titleLabel]text];
+    }
     curInputValue = [curInputValue stringByAppendingFormat:numPoint, nil];
+    [self DisplayInputValue:curInputValue];
 }
 
 // 기능버튼 처리
@@ -97,12 +105,28 @@
     {
         [self Calculation:curStatusCode CurStatusCode:STATUS_RETURN];
     }
+    else if([@"mc" isEqualToString:operationText])       // mc
+    {
+        
+    }
+    else if([@"m+" isEqualToString:operationText])       // m+
+    {
+
+    }
+    else if([@"m−" isEqualToString:operationText])       // m-
+    {
+
+    }
+    else if([@"mr" isEqualToString:operationText])       // mr
+    {
+        
+    }
+    
 }
 
-// 현재 상태에 해당되는 분기처리
+// 현재 상태에 따른 분기처리
 -(void) Calculation:(kStatusCode)StatusCode CurStatusCode:(kStatusCode)cStatusCode
 {
-    
     switch(StatusCode)
     {
         case STATUS_DEFAULT:

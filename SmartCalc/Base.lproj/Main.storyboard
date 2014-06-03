@@ -17,303 +17,320 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk6-TN-0Lf">
-                                <rect key="frame" x="20" y="37" width="280" height="68"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" red="0.090196080505847931" green="0.69411766529083252" blue="0.69019609689712524" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWs-BV-ERK">
-                                <rect key="frame" x="20" y="119" width="64" height="62"/>
+                                <rect key="frame" x="1" y="119" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="mc">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KLk-HW-mAW"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YHe-cM-f3V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFo-GW-gKH">
-                                <rect key="frame" x="92" y="119" width="64" height="62"/>
+                                <rect key="frame" x="80" y="119" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="m+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qxh-fN-gIS"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wgo-FH-pSd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlT-Hi-K5h">
-                                <rect key="frame" x="164" y="119" width="64" height="62"/>
+                                <rect key="frame" x="159" y="119" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="m-">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="m−">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K9F-Tn-3Pi"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NZq-Vj-E9w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAT-Qp-ujk">
-                                <rect key="frame" x="236" y="119" width="64" height="62"/>
+                                <rect key="frame" x="238" y="119" width="81" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
                                 <state key="normal" title="mr">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GhC-SF-Wrs"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hN6-Y0-rjg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWb-zQ-mYC">
-                                <rect key="frame" x="20" y="189" width="64" height="62"/>
+                                <rect key="frame" x="1" y="191" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="c">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YPe-LD-BNl"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5qF-LK-UiS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gax-1J-UZI">
-                                <rect key="frame" x="92" y="189" width="64" height="62"/>
+                                <rect key="frame" x="80" y="191" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="±">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hgE-0N-7c3"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vfD-h8-Jck"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUX-Sp-pAT">
-                                <rect key="frame" x="164" y="189" width="64" height="62"/>
+                                <rect key="frame" x="159" y="191" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="÷">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BfA-eD-MS2"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="czU-zM-EQI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daz-9i-Ab5">
-                                <rect key="frame" x="20" y="259" width="64" height="62"/>
+                                <rect key="frame" x="1" y="263" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
                                 <state key="normal" title="7">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8Bf-5R-kc7"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EAK-uE-1mG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXd-JX-Mul">
-                                <rect key="frame" x="92" y="259" width="64" height="62"/>
+                                <rect key="frame" x="80" y="263" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="8">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DGE-Np-ajm"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xgZ-gy-xLS"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uTx-yX-KKP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cf-Z1-Ox4">
-                                <rect key="frame" x="164" y="259" width="64" height="62"/>
+                                <rect key="frame" x="159" y="263" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="9">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DLs-Kz-8q6"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fbL-pa-ag6"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hWk-4x-K45"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOr-4r-va4">
-                                <rect key="frame" x="236" y="189" width="64" height="62"/>
+                                <rect key="frame" x="238" y="191" width="81" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="×">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8ZJ-0T-1pP"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Unt-iM-bTy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGq-Ws-1DA">
-                                <rect key="frame" x="20" y="329" width="64" height="62"/>
+                                <rect key="frame" x="1" y="335" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7G3-R1-cE2"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9zG-aK-jOo"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="k76-uw-smF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eY-v0-oR0">
-                                <rect key="frame" x="92" y="329" width="64" height="62"/>
+                                <rect key="frame" x="80" y="335" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="5">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JUe-sV-VtJ"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CQ2-NF-jye"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gu-L9-e5O">
-                                <rect key="frame" x="164" y="329" width="64" height="62"/>
+                                <rect key="frame" x="159" y="335" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="6">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="be8-Ft-e7t"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iJw-mg-OEv"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NpX-Gp-pfc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOZ-9G-gX7">
-                                <rect key="frame" x="236" y="259" width="64" height="62"/>
+                                <rect key="frame" x="238" y="263" width="81" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="−">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LQJ-4N-O9H"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tG5-et-Icp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78i-Tu-Rs4">
-                                <rect key="frame" x="20" y="399" width="64" height="62"/>
+                                <rect key="frame" x="1" y="407" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lL3-4e-eOx"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="O7o-ub-Mhn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0q3-4v-iTI">
-                                <rect key="frame" x="92" y="399" width="64" height="62"/>
+                                <rect key="frame" x="80" y="407" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d9w-1X-83w"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UQD-u7-0EK"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="csk-Z7-nFQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5q-bc-5zs">
-                                <rect key="frame" x="164" y="399" width="64" height="62"/>
+                                <rect key="frame" x="159" y="407" width="77" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-2" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="alo-Gg-GsS"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XPR-bX-b3Q"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="voz-vo-t8K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXB-Vo-MYy">
-                                <rect key="frame" x="236" y="329" width="64" height="62"/>
+                                <rect key="frame" x="238" y="335" width="81" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-8" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="36G-Dr-vKV"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ehC-Te-zIR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEc-jJ-mR4">
-                                <rect key="frame" x="20" y="469" width="136" height="62"/>
+                                <rect key="frame" x="1" y="479" width="156" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
                                 <state key="normal" title="0">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="s5I-u8-86o"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EJJ-2y-evN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaj-FF-pSx">
-                                <rect key="frame" x="164" y="469" width="64" height="62"/>
+                                <rect key="frame" x="159" y="479" width="77" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-4" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="∙">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ote-7P-zfo"/>
-                                    <action selector="disitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RNg-aP-Jav"/>
+                                    <action selector="digitPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6pQ-Y2-Oin"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tG-Ks-6vc">
-                                <rect key="frame" x="236" y="399" width="64" height="132"/>
+                                <rect key="frame" x="238" y="407" width="81" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-9" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="=">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2h8-OO-327"/>
+                                    <action selector="operationpressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4ou-NP-Pp8"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.52124763257575757" blue="0.72360321969696972" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="displayLabel" destination="gk6-TN-0Lf" id="fAk-Nr-jWm"/>
-                        <outlet property="keypad0" destination="PEc-jJ-mR4" id="M8J-xc-NRX"/>
-                        <outlet property="keypad1" destination="78i-Tu-Rs4" id="N6g-0v-w3D"/>
-                        <outlet property="keypadC" destination="QWb-zQ-mYC" id="RTK-TS-RXi"/>
-                        <outlet property="keypadDivide" destination="jUX-Sp-pAT" id="S3m-eV-bZ1"/>
-                        <outlet property="keypadEqual" destination="3tG-Ks-6vc" id="XXC-Kg-8fM"/>
-                        <outlet property="keypadMC" destination="gWs-BV-ERK" id="mEI-iO-qfB"/>
-                        <outlet property="keypadMMinus" destination="jlT-Hi-K5h" id="cpm-RY-6cW"/>
-                        <outlet property="keypadMPlus" destination="uFo-GW-gKH" id="1o7-dl-dKq"/>
-                        <outlet property="keypadMR" destination="bAT-Qp-ujk" id="FyS-G1-3bs"/>
-                        <outlet property="keypadMinus" destination="vOZ-9G-gX7" id="EkC-lj-Hod"/>
-                        <outlet property="keypadMultiple" destination="DOr-4r-va4" id="9Te-RE-Ury"/>
-                        <outlet property="keypadPM" destination="Gax-1J-UZI" id="Iua-29-pNe"/>
-                        <outlet property="keypadPlus" destination="cXB-Vo-MYy" id="PLm-HZ-cDx"/>
-                        <outlet property="keypadPoint" destination="eaj-FF-pSx" id="dH4-RA-3Sq"/>
+                        <outlet property="displayLabel" destination="gk6-TN-0Lf" id="3Wv-xQ-5Fe"/>
+                        <outlet property="keypad0" destination="PEc-jJ-mR4" id="5xS-Gl-Kn0"/>
+                        <outlet property="keypad1" destination="78i-Tu-Rs4" id="ZgM-Pv-7mp"/>
+                        <outlet property="keypad2" destination="0q3-4v-iTI" id="JyB-9Y-CRS"/>
+                        <outlet property="keypad3" destination="s5q-bc-5zs" id="Gkg-ka-G2t"/>
+                        <outlet property="keypad4" destination="aGq-Ws-1DA" id="3gv-ax-QO9"/>
+                        <outlet property="keypad5" destination="6eY-v0-oR0" id="8fg-Wf-aw9"/>
+                        <outlet property="keypad6" destination="6gu-L9-e5O" id="nVy-HT-VyZ"/>
+                        <outlet property="keypad7" destination="daz-9i-Ab5" id="tpy-v1-uRb"/>
+                        <outlet property="keypad8" destination="UXd-JX-Mul" id="ueM-Tb-3tr"/>
+                        <outlet property="keypad9" destination="6cf-Z1-Ox4" id="msL-CB-dm0"/>
+                        <outlet property="keypadC" destination="QWb-zQ-mYC" id="I2o-lH-lgV"/>
+                        <outlet property="keypadDivide" destination="jUX-Sp-pAT" id="Tde-tH-RYB"/>
+                        <outlet property="keypadEqual" destination="3tG-Ks-6vc" id="TYB-Ro-vE8"/>
+                        <outlet property="keypadMC" destination="gWs-BV-ERK" id="vj9-DK-OGe"/>
+                        <outlet property="keypadMMinus" destination="jlT-Hi-K5h" id="cW2-vi-WGQ"/>
+                        <outlet property="keypadMPlus" destination="uFo-GW-gKH" id="PJl-cL-Mvi"/>
+                        <outlet property="keypadMR" destination="bAT-Qp-ujk" id="3ee-1C-ted"/>
+                        <outlet property="keypadMinus" destination="vOZ-9G-gX7" id="27w-Vk-aU2"/>
+                        <outlet property="keypadMultiple" destination="DOr-4r-va4" id="5cj-Mf-cJ7"/>
+                        <outlet property="keypadPM" destination="Gax-1J-UZI" id="6Or-L6-xJb"/>
+                        <outlet property="keypadPlus" destination="cXB-Vo-MYy" id="1QO-VN-uR6"/>
+                        <outlet property="keypadPoint" destination="eaj-FF-pSx" id="Yza-bd-coi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

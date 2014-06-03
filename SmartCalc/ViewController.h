@@ -29,7 +29,6 @@ typedef enum {
     IBOutlet UIButton *keypadMR;
     IBOutlet UIButton *keypadC;
     IBOutlet UIButton *keypadPM;
-    IBOutlet UIButton *keypadPercent;
     IBOutlet UIButton *keypadDivide;
     IBOutlet UIButton *keypadMultiple;
     IBOutlet UIButton *keypadMinus;
@@ -49,7 +48,7 @@ typedef enum {
 }
 
 -(IBAction) digitPressed:(UIButton *)sender;
--(IBAction)operationpressed:(UIButton *)sender;
+-(IBAction) operationpressed:(UIButton *)sender;
 -(void) Calculation:(kStatusCode)StatusCode CurStatusCode:(kStatusCode)cStatusCode;
 -(void) ClearCalulation;
 -(void) DisplayInputValue:(NSString *)displayText;
