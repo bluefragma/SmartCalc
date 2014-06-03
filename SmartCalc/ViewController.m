@@ -46,6 +46,7 @@
     keypad9.layer.cornerRadius = 3;
     keypadPoint.layer.cornerRadius = 3;
     */
+    [self setNeedsStatusBarAppearanceUpdate];
     [self ClearCalulation];
     [displayLabel setText:@"0"];
 }
