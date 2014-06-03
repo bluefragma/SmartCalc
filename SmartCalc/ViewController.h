@@ -48,7 +48,7 @@ typedef enum {
     IBOutlet UIButton *keypadPoint;
 }
 
--(IBAction) disitPressed:(UIButton *)sender;
+-(IBAction) digitPressed:(UIButton *)sender;
 -(IBAction)operationpressed:(UIButton *)sender;
 -(void) Calculation:(kStatusCode)StatusCode CurStatusCode:(kStatusCode)cStatusCode;
 -(void) ClearCalulation;
@@ -58,7 +58,7 @@ typedef enum {
 -(NSString *)ConvertComma:(NSString *)data;
 
 -(void) MinusCalculation;
--(void) PlusClaculation;
+-(void) PlusCalculation;
 -(void) MultiplyCalculation;
 -(void) DivisionCalculation;
 -(void) RemainCalculationValue;
