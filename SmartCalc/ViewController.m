@@ -21,30 +21,31 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    displayLabel.layer.cornerRadius = 5;
-    keypadMC.layer.cornerRadius = 5;
-    keypadMPlus.layer.cornerRadius = 5;
-    keypadMMinus.layer.cornerRadius = 5;
-    keypadMR.layer.cornerRadius = 5;
-    keypadC.layer.cornerRadius = 5;
-    keypadPM.layer.cornerRadius = 5;
-    keypadDivide.layer.cornerRadius = 5;
-    keypadMultiple.layer.cornerRadius = 5;
-    keypadMinus.layer.cornerRadius = 5;
-    keypadPlus.layer.cornerRadius = 5;
-    keypadEqual.layer.cornerRadius = 5;
-    keypad0.layer.cornerRadius = 5;
-    keypad1.layer.cornerRadius = 5;
-    keypad2.layer.cornerRadius = 5;
-    keypad3.layer.cornerRadius = 5;
-    keypad4.layer.cornerRadius = 5;
-    keypad5.layer.cornerRadius = 5;
-    keypad6.layer.cornerRadius = 5;
-    keypad7.layer.cornerRadius = 5;
-    keypad8.layer.cornerRadius = 5;
-    keypad9.layer.cornerRadius = 5;
-    keypadPoint.layer.cornerRadius = 5;
-    
+    /*
+    displayLabel.layer.cornerRadius = 3;
+    keypadMC.layer.cornerRadius = 3;
+    keypadMPlus.layer.cornerRadius = 3;
+    keypadMMinus.layer.cornerRadius = 3;
+    keypadMR.layer.cornerRadius = 3;
+    keypadC.layer.cornerRadius = 3;
+    keypadPM.layer.cornerRadius = 3;
+    keypadDivide.layer.cornerRadius = 3;
+    keypadMultiple.layer.cornerRadius = 3;
+    keypadMinus.layer.cornerRadius = 3;
+    keypadPlus.layer.cornerRadius = 3;
+    keypadEqual.layer.cornerRadius = 3;
+    keypad0.layer.cornerRadius = 3;
+    keypad1.layer.cornerRadius = 3;
+    keypad2.layer.cornerRadius = 3;
+    keypad3.layer.cornerRadius = 3;
+    keypad4.layer.cornerRadius = 3;
+    keypad5.layer.cornerRadius = 3;
+    keypad6.layer.cornerRadius = 3;
+    keypad7.layer.cornerRadius = 3;
+    keypad8.layer.cornerRadius = 3;
+    keypad9.layer.cornerRadius = 3;
+    keypadPoint.layer.cornerRadius = 3;
+    */
     [self ClearCalulation];
     [displayLabel setText:@"0"];
 }
