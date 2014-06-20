@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578DA3AB193E67C700E28C88 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578DA3AA193E67C700E28C88 /* AVFoundation.framework */; };
+		579B62CD1954745C009865E8 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 579B62CC1954745C009865E8 /* Calc.m */; };
 		57D0C9BB193CCD740056CDA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9BA193CCD740056CDA9 /* Foundation.framework */; };
 		57D0C9BD193CCD740056CDA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9BC193CCD740056CDA9 /* CoreGraphics.framework */; };
 		57D0C9BF193CCD740056CDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9BE193CCD740056CDA9 /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		57D0C9DC193CCD740056CDA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9BE193CCD740056CDA9 /* UIKit.framework */; };
 		57D0C9E4193CCD740056CDA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D0C9E2193CCD740056CDA9 /* InfoPlist.strings */; };
 		57D0C9E6193CCD740056CDA9 /* SmartCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D0C9E5193CCD740056CDA9 /* SmartCalcTests.m */; };
-		57D0C9F0193CCD9C0056CDA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D0C9EF193CCD9C0056CDA9 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		578DA3AA193E67C700E28C88 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		579B62CB1954745C009865E8 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		579B62CC1954745C009865E8 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
 		57D0C9B7193CCD740056CDA9 /* SmartCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D0C9BA193CCD740056CDA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		57D0C9BC193CCD740056CDA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D0C9F0193CCD9C0056CDA9 /* QuartzCore.framework in Frameworks */,
+				578DA3AB193E67C700E28C88 /* AVFoundation.framework in Frameworks */,
 				57D0C9BD193CCD740056CDA9 /* CoreGraphics.framework in Frameworks */,
 				57D0C9BF193CCD740056CDA9 /* UIKit.framework in Frameworks */,
 				57D0C9BB193CCD740056CDA9 /* Foundation.framework in Frameworks */,
@@ -104,6 +108,7 @@
 		57D0C9B9193CCD740056CDA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				578DA3AA193E67C700E28C88 /* AVFoundation.framework */,
 				57D0C9EF193CCD9C0056CDA9 /* QuartzCore.framework */,
 				57D0C9BA193CCD740056CDA9 /* Foundation.framework */,
 				57D0C9BC193CCD740056CDA9 /* CoreGraphics.framework */,
@@ -121,6 +126,8 @@
 				57D0C9CC193CCD740056CDA9 /* Main.storyboard */,
 				57D0C9CF193CCD740056CDA9 /* ViewController.h */,
 				57D0C9D0193CCD740056CDA9 /* ViewController.m */,
+				579B62CB1954745C009865E8 /* Calc.h */,
+				579B62CC1954745C009865E8 /* Calc.m */,
 				57D0C9D2193CCD740056CDA9 /* Images.xcassets */,
 				57D0C9C1193CCD740056CDA9 /* Supporting Files */,
 			);
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579B62CD1954745C009865E8 /* Calc.m in Sources */,
 				57D0C9D1193CCD740056CDA9 /* ViewController.m in Sources */,
 				57D0C9CB193CCD740056CDA9 /* AppDelegate.m in Sources */,
 				57D0C9C7193CCD740056CDA9 /* main.m in Sources */,
@@ -460,6 +468,7 @@
 				57D0C9EB193CCD740056CDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D0C9EC193CCD740056CDA9 /* Build configuration list for PBXNativeTarget "SmartCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				57D0C9EE193CCD740056CDA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,20 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-typedef enum {
-    STATUS_DEFAULT=0,
-    STATUS_DIVISION,
-    STATUS_MULTIPLY,
-    STATUS_MINUS,
-    STATUS_PLUS,
-    STATUS_RETURN
-}kStatusCode;
+@class Calc;
 
 @interface ViewController : UIViewController {
-    double curValue;
-    double totalCurValue;
-    NSString *curInputValue;
     
     IBOutlet UILabel *displayLabel;
     IBOutlet UIButton *keypadMC;
@@ -45,28 +36,25 @@ typedef enum {
     IBOutlet UIButton *keypad8;
     IBOutlet UIButton *keypad9;
     IBOutlet UIButton *keypadPoint;
+    IBOutlet UILabel *operationState;
+    IBOutlet UILabel *displayMemory;
 }
 
 -(IBAction) digitPressed:(UIButton *)sender;
 -(IBAction) operationpressed:(UIButton *)sender;
--(void) Calculation:(kStatusCode)StatusCode CurStatusCode:(kStatusCode)cStatusCode;
+-(void) DisplayCalculationValue:(Float64) totalCurValue64;
+
 -(void) ClearCalulation;
 -(void) DisplayInputValue:(NSString *)displayText;
--(void) DisplayCalculationValue;
 
 -(NSString *)ConvertComma:(NSString *)data;
 
--(void) MinusCalculation;
--(void) PlusCalculation;
--(void) MultiplyCalculation;
--(void) DivisionCalculation;
--(void) RemainCalculationValue;
--(void)ReturnCalculationValue;
+-(void) ReturnCalculationValue;
 
-@property Float64 curValue;
-@property Float64 totalCurValue;
-@property kStatusCode curStatusCode;
-@property (nonatomic, retain) NSString *curInputValue;
-@property (nonatomic, retain) UILabel *displayLabel;
+// 계산기
+@property (nonatomic, strong) Calc *calc;
+@property (nonatomic, retain) IBOutlet UILabel *displayLabel;
+@property (nonatomic, retain) IBOutlet UILabel *displayMemory;
+@property (strong, nonatomic) IBOutlet UILabel *displaySymbolState;
 
 @end
